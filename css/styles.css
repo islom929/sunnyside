@@ -219,11 +219,11 @@ margin-top: 52px;
 .transform::before{
   content: "";
   width: 100%;
-height: 100%;
+
 display: block;
   background-image: url("../img/img-egg-mobile.png");
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: center;
   background-size: cover;
   padding-top: 376px;
 
@@ -314,11 +314,11 @@ z-index: -1;
 .glass::before{
   content: "";
   width: 100%;
-height: 100%;
+
 display: block;
   background-image: url("../img/img-glass-mobile.png");
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position:center;
   background-size: cover;
   padding-top: 376px;
 
@@ -854,6 +854,62 @@ margin-left: -3%;
 
 
 
+
+
+/* TODO DESKTOP  */
+
+
+
+
+
+@media  screen and (min-width: 1000px) {
+
+.tramsform__container {
+padding-top: 150px;
+padding-bottom: 150px;
+padding-left: 150px;
+align-items: start;
+padding-right: 0;
+background-color: #fff;
+}
+
+.transform__title,.transform__text {
+  width: 70%;
+  text-align: left;
+
+}
+
+.glass__container {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 150px;
+  align-items: start;
+  padding-right: 0;
+  background-color: #fff;
+  }
+
+  .glass__title,.glass__text {
+    width: 70%;
+    text-align: left;
+
+  }
+
+
+.client__list {
+  margin-left: -8%;
+}
+
+.client__item {
+  width: 20%;
+margin-left: 8%;
+}
+
+
+
+
+
+
+}
 
 
 
